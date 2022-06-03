@@ -48,6 +48,7 @@ function  analyzeColor (input) {
 analyzeColor("blue")
 analyzeColor("red")
 
+//Write some code
 
 
 
