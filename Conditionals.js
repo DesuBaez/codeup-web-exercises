@@ -45,7 +45,8 @@ function  analyzeColor (input) {
         ("I do not have that color")
 }
 
-analyzeColor()
+analyzeColor("blue")
+analyzeColor("red")
 
 
 
