@@ -19,34 +19,28 @@
 // * console.logging the function's return value
 //*
 
-function  analyzeColor (input) {
+// function  analyzeColor (input) {
 
 
-    if (input === "blue"){
-        console.log("blue is the color of my eyes");
+   // / if (input === "blue"){
+  // /      console.log("blue is the color of my eyes");
 
-    }
-
-    else
-    if (input === "red"){
-        console.log("red,, like the color you bleed");
-
-    }
+  ///  }
 
 
-    else
-    if (input === "black"){
-        console.log("black like the color of your heart");
+    // else
+    // if (input === "black"){
+    //     console.log("black like the color of your heart");
 
-    }
+    // }
 
-    else
-        return
-        ("I do not have that color")
-}
+    // else
+    //     return
+    //     ("I do not have that color")
+// }
 
-analyzeColor("blue")
-analyzeColor("red")
+// analyzeColor("blue")
+// analyzeColor("red")
 
 //Write some code
 
@@ -61,18 +55,59 @@ analyzeColor("red")
 // - `colors`: a list of the colors of the rainbow
 // - `randomColor`: contains a single random color value from the list (this
 //                  will contain a different color every time the page loads)
-var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-var randomColor = colors[Math.floor(Math.random() * colors.length)];
+// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+// var randomColor = colors[Math.floor(Math.random() * colors.length)];
 /**
  * TODO:
  * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
  * You should see a different message every time you refresh the page
  */
 
+
+// analyzeColor(randomColor = colors[Math.floor(Math.random() * colors.length)])
+// console.log (return)
+
+
+
+
+
+
 /**
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
+function  analyzeColor (input) {
+
+
+    switch (input){
+
+
+
+
+    case input === "red"
+        console.log("red, like the color you bleed")
+        break
+
+
+
+
+    case input === "black"
+        console.log("black like the color of your heart")
+        break
+
+case input === "black"
+        console.log("yellow like the color of your heart")
+
+    default
+        return
+    ("I do not have that color")
+        break
+
+
+analyzeColor("blue")
+analyzeColor("red")
+    break
+    }
 
 /**
  * TODO:
@@ -80,6 +115,11 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * user to your `analyzeColor` function. Alert the return value from your
  * function to show it to the user.
  */
+prompt (" give me a color , stanly!")
+    analyzeColor(input)
+    alert ""here is your color Stannn" + input"
+    ""
+
 
 /* ########################################################################## */
 
@@ -102,6 +142,35 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+
+function calculateTotal (x){
+ }
+
+    let discountAmount = (discount)
+    let totalAmount = (number)
+    let rando = (randomNumber)
+    let discount = (discount)
+
+
+
+        if  (rando === 1) =10%
+
+        else if(rando === 2) = 25%
+
+        else if(rando === 3)= 35%
+
+        else if (rando === 50%)
+
+        else(rando === free)
+
+    totalAmount * rando ( totalAmount - discount = discountedTotal)
+    return discountedTotal
+
+
+
+
+
+
 
 /**
  * TODO:
@@ -132,3 +201,49 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
+
+    confirm("Would you like to play a game?" )
+    prompt (" please enter a number")
+
+    function gameNumber (input){
+
+    }
+
+
+
+    if ( gameNumber() % 2 == 0) {
+        alert('This is an Even Number');
+    }else{
+        alert(' This is an Odd Number');
+    }
+
+
+
+
+    let Centurian = gameNumber() + 100
+    alert ()
+
+
+    /*if gameNumber (is = > 1)
+    alert ("this number is postive")
+    else if gameNumber (= < 0)
+    alert (" this number is negative")
+    */
+
+    function isEven(gameNumber){
+        if (i % numberCounter === 0) {
+            alert('even');
+        } else {alert('odd');
+
+
+
+
+
+
+
+
+
+
+
+
+
