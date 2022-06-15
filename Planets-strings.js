@@ -1,0 +1,5 @@
+
+
+
+
+planetArray = planetString.split(|)

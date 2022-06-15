@@ -43,6 +43,9 @@
     for(let i = 0; i < names.forEach(); i++) {
         console.log(names[i]);
 
+
+
+        names.forEach()
         /**
          * TODO:
          * Create the following three functions, each will accept an array and
@@ -50,6 +53,8 @@
          * - first: returns the first item in the array
          * - second: returns the second item in the array
          * - last: returns the last item in the array
+         *
+         *
          *
          * Example:
          *  > first([1, 2, 3, 4, 5]) // returns 1
@@ -61,5 +66,18 @@
          return names[0]
 }
     }
+
+    function first (arr) {
+        return arr [0]
+    }
+    function second (arr) {
+        return arr [1]
+    }
+    function third (arr) {
+        return arr [arr.length -1]
+        console.log("the first element was" + first (namwes));
+    }
+
+
 
 })();
