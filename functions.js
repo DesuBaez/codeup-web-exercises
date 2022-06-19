@@ -50,6 +50,17 @@ console.log (sayHello(myName))
 
 var random = Math.floor((Math.random() * 3) + 1);
 
+function isTwo (number){
+    if(number % 2 == 0)
+        console.log("the number is even");
+        else
+        {console.log("the number is odd")
+        }
+    }
+
+isTwo(random)
+
+
 /**
  * TODO:
  * Create a function called 'isTwo' that takes a number as a parameter.
@@ -68,10 +79,18 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
-
-function isTwo (x) {
-    return  num === 2
+function isTwo (number){
+    if(number % 2 == 0)
+        console.log("the number is true");
+    else
+    {console.log("the number is false")
+    }
 }
+
+isTwo(random)
+
+
+
 
 
 
@@ -86,12 +105,21 @@ function isTwo (x) {
  * > calculateTip(0.20, 20) // returns 4
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
+ *
  */
- function calculateTip (tipAmount , billTotal){
 
-     let tipInDollars = tipAmount * billTotal;
-     return tipInDollars;
- }
+
+
+var totalBill=(number)
+var tipPercent=(number)
+var tipamt=(number)
+var total=(number)
+function calculateTip (number){
+     // totalBill*tipPercent=tipamt-,(tipamt-totalBill=total)
+    console.log (total)
+
+
+}
 
 /**
  * TODO:
@@ -99,9 +127,9 @@ function isTwo (x) {
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
- let totalAmount = prompt ("enter bill total")
- let tipAsDecimal = prompt ("enter tip amount" )
- alert (tipTotal)
+prompt("Please provide your bill total");
+prompt("please provide desired tip amount");
+
 
 /**
  * TODO:
@@ -118,10 +146,8 @@ function isTwo (x) {
  *
  *
  */
-function applyDiscount (price, discountAsDecimal){
+var discountedNumber= (number);
+function applyDiscount(number1,number2);
+return (number1*number2)=discountedNumber;
 
-
-    return originalPrice - (originalPrice * discountAsDecimal)
-
-
- }
+discountedNumber(43,.5);
