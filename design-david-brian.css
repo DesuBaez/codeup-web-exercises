@@ -26,3 +26,23 @@ a{
 .nav-link {
     color: #a0a0a0 !important;
 }
+
+.design {
+    background: var(--orange-circle);
+    border: 3px solid var(--light-bg-color);
+}
+
+.develop {
+    background: var(--gold-circle);
+    border: 3px solid var(--light-bg-color);
+}
+
+.support {
+    background: var(--green-circle);
+    border: 3px solid var(--light-bg-color);
+}
+
+.host {
+    background: var(--blue-circle);
+    border: 3px solid var(--light-bg-color);
+}
