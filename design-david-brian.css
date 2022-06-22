@@ -10,4 +10,19 @@ root {
 
 body {
     background: var(--main-bg-color);
+    font-family: 'Anton', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #000400 !important;
+}
+
+.nav-link {
+    color: #a0a0a0 !important;
 }
