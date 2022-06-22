@@ -1,0 +1,26 @@
+
+
+/*<style> {*/
+/*   background-image: url("../assets/pizza.png");*/
+/*. docrob-tron display: flex;*/
+/*   flex-direction: column;*/
+/*   justify-content: center;*/
+/*   height: 160px;*/
+/*   align-items: center;*/
+/**/
+/*}*/
+/**/
+/*</style>*/
+.card{
+    padding: 20px;
+    margin 10pn;
+    border-bottom-style: inset;
+}
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    display: none;

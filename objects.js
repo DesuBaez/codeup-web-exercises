@@ -62,13 +62,48 @@ jo
      */
 
 
-             const books = [{title:"Catch22",author:{firstName:"Jason",lastName:"Keller"}},
-               const books1 = {title:"theWatcher",author:{firstName:"Virginia",lastName:"Wolfe"}},
-                 const books2 = {title:"theLastRung",author:{firstName:"Stephen",lastName:"King"}},
-                    const books3 = {title:"AnimalFarm",author:{firstName:"George",lastName:"Orwell"}},
-                       const books4 = {title:"DonQ",author:{firstName:"Miguel",lastName:"Cervantes"}}];
+    const books = [
+        {
+            title:"Catch22",
+            author: {
+                firstName:"Jason",
+                lastName:"Keller"
+            }
+        },
+        {
+            title:"theWatcher",
+            author: {
+                firstName:"Virginia",
+                lastName:"Wolfe"
+            }
+        },
+        {
+            title:"theLastRung",
+            author: {
+                firstName:"Stephen",
+                lastName:"King"
+            }
+        },
+     {
+         title:"AnimalFarm",
+         author:{
+             firstName:"George",
+             lastName:"Orwell"
+         }
+     },
+      {
+          title:"DonQ",
+          author:{
+              firstName:"Miguel",
+              lastName:"Cervantes"
+          }
+      }
+      ];
 
-                        console.log(title.lastrung);
+    console.log(books[0].firstName);
+    for (let i = 0; i < books.lentgh; i++) {
+
+    }
 
 
 
