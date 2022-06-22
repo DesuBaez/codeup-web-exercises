@@ -1,0 +1,13 @@
+root {
+    --main-bg-color: #e6e6e6;
+    --light-bg-color: #f0f0f0;
+    --orange-circle: #e6563b;
+    --gold-circle: #eb9d3a;
+    --green-circle: #7cb06c;
+    --blue-circle: #00aba9;
+
+}
+
+body {
+    background: var(--main-bg-color);
+}
